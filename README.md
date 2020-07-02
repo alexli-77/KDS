@@ -16,21 +16,21 @@ However, KDS is promoted on the basis of Descheduler,  and KDS considered and so
 
 This project consists of two parts, KDS and operator. This Github project is the KDS.
 
-Notes：
+> Notes：
 1.The current load balancing solution provided by the Kubernetes platform is suitable for cluster operation. Since we periodically detect the cluster state and detect the number of pods being deployed during the migration to ensure that the cluster load is not affected, application services can be allocated to new physical resources to be added later in the run to address the load imbalance.
 
 2.For service applications with storage capabilities, we can take the approach of multiple copies, keeping the same data on each copy and performing data copy operations in the initialization container to ensure that the data can be recovered after scheduling. The data here includes data in memory and on disk.
 
-Research Platform
+#### Research Platform
 linux
 
-Programming Language
+#### Programming Language
 go, Java, C++.
 
-Research Topic
+#### Research Topic
 1 A self-adaptive and policy-based dynamic scheduler for applications in Kubernetes
 
-Build and Run
+#### Build and Run
 Build descheduler:
 
 $ make and run descheduler:
