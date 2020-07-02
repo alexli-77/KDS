@@ -1,0 +1,8 @@
+
+FROM scratch
+
+MAINTAINER Alex
+
+COPY _output/bin/descheduler-controller /bin/descheduler-controller
+
+CMD ["/bin/descheduler-controller", "--help"]

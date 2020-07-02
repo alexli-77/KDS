@@ -1,0 +1,3 @@
+policyfilepath: "./config/policy.yaml"
+templatefilepath: "./config/template.yaml"
+
